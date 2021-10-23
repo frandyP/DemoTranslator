@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".TraductorMain">
+
+    <FrameLayout
+        android:id="@+id/Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp">
+
+
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/traduccion"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/Fragment"
+        android:layout_marginHorizontal="20dp"
+        android:background="@android:color/white"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/traduccionT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:alpha="0.5"
+                android:fontFamily="sans-serif-medium"
+                android:text="Idioma 2"
+                android:textColor="#313435"
+                android:textSize="25dp"></TextView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/traduccionT">
+
+                <TextView
+                    android:id="@+id/translatedText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:textColor="#313435"
+                    android:textSize="18dp"></TextView>
+            </ScrollView>
+
+            <ImageButton
+                android:id="@+id/copy"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_content_copy_black_24dp"></ImageButton>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

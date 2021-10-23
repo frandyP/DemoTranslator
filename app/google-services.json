@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "501601309639",
+    "firebase_url": "https://proyectotraductor2020.firebaseio.com",
+    "project_id": "proyectotraductor2020",
+    "storage_bucket": "proyectotraductor2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501601309639:android:b939d03140c51129c9bfe2",
+        "android_client_info": {
+          "package_name": "com.example.itlavision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501601309639-dv04ioos895ti3jrm3hfra0357r18sdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZXD60vFOvIT-7vdR0TTjwXstWwrW4C6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501601309639-dv04ioos895ti3jrm3hfra0357r18sdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
